@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff102f349e31945bd73a8c67efc752, type: 3}
+  m_Name: 5a
+  m_EditorClassIdentifier: 
+  questionText: Kalian pergi ke dapur untuk makan bersama,Ibu terlihat lebih senang.
+    sembari makan ibu mengajak ngobrol, "ibu sama bapak kangen, kamu sama istri main
+    ke rumah lah."
+  choices:
+  - answerText: '*diam saja melanjutkan makan*'
+    fin: 0
+    rel: -20
+    edu: -20
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 29d5b7860036fff498744dba5294febf, type: 2}
+  - answerText: '"Nanti saja bu ngobrolnya, dimakan dulu"'
+    fin: 0
+    rel: -10
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 29d5b7860036fff498744dba5294febf, type: 2}
+  - answerText: '"Padahal minggu depan kami berencana kesana loh bu, harusnya gausah
+      repot-repot hari ini datang kesini"'
+    fin: 0
+    rel: 30
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 29d5b7860036fff498744dba5294febf, type: 2}
+  - answerText: '"Iya bu, kita juga. Nanti kita atur jadwalnya datang kesana ya bu"'
+    fin: 0
+    rel: -5
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 29d5b7860036fff498744dba5294febf, type: 2}
+  isEndCard: 0

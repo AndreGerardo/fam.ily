@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff102f349e31945bd73a8c67efc752, type: 3}
+  m_Name: 6a
+  m_EditorClassIdentifier: 
+  questionText: Selesai makan, ibu menawarkan untuk mencuci alat makan yang kotor
+  choices:
+  - answerText: '"Tidak usah bu, biar kami saja. Ibu kan tamu"'
+    fin: 0
+    rel: 10
+    edu: 10
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 3b297e363e030b244a029c0d2db742a6, type: 2}
+  - answerText: '"Boleh bu"'
+    fin: 0
+    rel: -5
+    edu: -5
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: d6fe8714b98938c4cbc542e7d38dd7ac, type: 2}
+  - answerText: '*Diam saja langsung membawa alat makan ke dapur*'
+    fin: 0
+    rel: -10
+    edu: -10
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 3b297e363e030b244a029c0d2db742a6, type: 2}
+  - answerText: '"Nanti saja bu, nanti Ningsih yang nyuci"'
+    fin: -5
+    rel: 10
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 882fd8213366a6549b5405cc3404dd32, type: 2}
+  isEndCard: 0

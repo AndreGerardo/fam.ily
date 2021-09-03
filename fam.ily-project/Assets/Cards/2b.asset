@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff102f349e31945bd73a8c67efc752, type: 3}
+  m_Name: 2b
+  m_EditorClassIdentifier: 
+  questionText: Sudah diakhir pekan, ada yang mengetuk pintu rumah mu
+  choices:
+  - answerText: '"Asik paket pesanan kemarin sudah datang, buka deh"'
+    fin: 0
+    rel: 0
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 4688339168e34224b91f28a80367e10e, type: 2}
+  - answerText: '*Didiemin*'
+    fin: 0
+    rel: -20
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: d6fe8714b98938c4cbc542e7d38dd7ac, type: 2}
+  - answerText: Pasti Ibu, aku bukain deh
+    fin: 0
+    rel: 0
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 4688339168e34224b91f28a80367e10e, type: 2}
+  - answerText: '*Ketuk balik*'
+    fin: 0
+    rel: -50
+    edu: 0
+    eco: 0
+    epilogueText: Demi Tuhan, ibu mertua mu benar-benar jengkel dengan kelakuan keluarga
+      mu. Yang didepan pintu itu ibu mertua mu, ia langsung pulang akhirnya
+    nextChoice: {fileID: 11400000, guid: d6fe8714b98938c4cbc542e7d38dd7ac, type: 2}
+  isEndCard: 0

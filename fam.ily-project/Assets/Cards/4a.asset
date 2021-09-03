@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff102f349e31945bd73a8c67efc752, type: 3}
+  m_Name: 4a
+  m_EditorClassIdentifier: 
+  questionText: Kamu mengajak mereka ke ruang tamu, mempersilakan mereka duduk. Tapi
+    semuanya canggung karena ibu tampak kurang senang
+  choices:
+  - answerText: '*Duduk tenang*'
+    fin: 0
+    rel: 0
+    edu: 0
+    eco: 5
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: af011f7e171ebc841be77c643e76b86f, type: 2}
+  - answerText: '"Perjalanan jauh kan bu, ayo makan dulu"'
+    fin: 0
+    rel: 0
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 09a77a097b683fb4ba16e1a8b9f3953c, type: 2}
+  - answerText: '*Ke dapur dan mengambil minum*'
+    fin: 0
+    rel: 5
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: c62944ebc06f9bf45b085e2138400c55, type: 2}
+  - answerText: '"Tadi bagaimana bu perjalanannya?"'
+    fin: 0
+    rel: 10
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 531432d9acb12914ea9cd1321b7be575, type: 2}
+  isEndCard: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff102f349e31945bd73a8c67efc752, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  questionText: Suatu hari ibu mertua menelfon mu
+  choices:
+  - answerText: Angkat telfonnya
+    fin: 0
+    rel: 20
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 8b85763cb4b9e204aaa781548770283b, type: 2}
+  - answerText: Biarkan saja, tidak usah diangkat pasti hal yang tidak penting
+    fin: 0
+    rel: -20
+    edu: 0
+    eco: 0
+    epilogueText: Kamu mengabaikan telfonnya, lain kali telfon beliau kembali
+    nextChoice: {fileID: 11400000, guid: fab179217e209604d9ede7fb125aae2c, type: 2}
+  - answerText: Wah aku lagi ngurusin kerjaan, nanti saja aku yang telfon
+    fin: 0
+    rel: 0
+    edu: 0
+    eco: 0
+    epilogueText: Kamu mengabaikan telfonnya, lain kali telfon beliau kembali
+    nextChoice: {fileID: 11400000, guid: d6fe8714b98938c4cbc542e7d38dd7ac, type: 2}
+  - answerText: '"Maa, tolong angkatin dong"'
+    fin: 0
+    rel: 10
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 8b85763cb4b9e204aaa781548770283b, type: 2}
+  isEndCard: 0

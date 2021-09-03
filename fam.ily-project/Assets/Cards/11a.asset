@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff102f349e31945bd73a8c67efc752, type: 3}
+  m_Name: 11a
+  m_EditorClassIdentifier: 
+  questionText: Kamu menaruh minum itu diatas meja, lalu ibu mertua mu itu berbicara
+    dengan nada sinis "Ini udah makan siang loh, gamau kamu ajak saya makan?"
+  choices:
+  - answerText: '"Eh iya bu, saya biasanya kalau ada tamu dikasih minum dulu baru
+      saya ajak ke ruang makan. Mari bu"'
+    fin: 0
+    rel: 15
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 09a77a097b683fb4ba16e1a8b9f3953c, type: 2}
+  - answerText: '"Ibu ini becandanya jelek deh"'
+    fin: 0
+    rel: -10
+    edu: 0
+    eco: 0
+    epilogueText: Ibu mertua mu itu tidak suka bercanda kawan, dia serius!
+    nextChoice: {fileID: 11400000, guid: d6fe8714b98938c4cbc542e7d38dd7ac, type: 2}
+  - answerText: '"Iya bu, mari"'
+    fin: 0
+    rel: 10
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 09a77a097b683fb4ba16e1a8b9f3953c, type: 2}
+  - answerText: '*Diam saja*'
+    fin: 0
+    rel: -10
+    edu: 0
+    eco: 0
+    epilogueText: Yaampun, kamu mirip batu ya. Ditanggapi kawan...
+    nextChoice: {fileID: 11400000, guid: d6fe8714b98938c4cbc542e7d38dd7ac, type: 2}
+  isEndCard: 0

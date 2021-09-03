@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56ff102f349e31945bd73a8c67efc752, type: 3}
+  m_Name: 7a
+  m_EditorClassIdentifier: 
+  questionText: Akhirnya ibu ikut mencuci piring walaupun kamu menolaknya, lalu melihat
+    beberapa piring kotor yang menumpuk. Ibu menegur "Toh minta istrimu itu nyuciin,
+    atau kamu lah inisiatif"
+  choices:
+  - answerText: '*Diam saja*'
+    fin: 0
+    rel: -20
+    edu: -10
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 882fd8213366a6549b5405cc3404dd32, type: 2}
+  - answerText: '"Walah ibu ini bawel banget apa aja dikomentarin"'
+    fin: 0
+    rel: -30
+    edu: -20
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: d6fe8714b98938c4cbc542e7d38dd7ac, type: 2}
+  - answerText: '"Iya bu"'
+    fin: 0
+    rel: 5
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 882fd8213366a6549b5405cc3404dd32, type: 2}
+  - answerText: D. "Kemarin kami sibuk bu, banyak kerjaan dari kantor. Istri juga
+      lagi ngurusin cucian baju."
+    fin: 0
+    rel: 0
+    edu: 0
+    eco: 0
+    epilogueText: 
+    nextChoice: {fileID: 11400000, guid: 882fd8213366a6549b5405cc3404dd32, type: 2}
+  isEndCard: 0
