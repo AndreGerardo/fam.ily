@@ -37,8 +37,8 @@ MonoBehaviour:
     eco: 0
     epilogueText: 
     nextChoice: {fileID: 11400000, guid: 882fd8213366a6549b5405cc3404dd32, type: 2}
-  - answerText: D. "Kemarin kami sibuk bu, banyak kerjaan dari kantor. Istri juga
-      lagi ngurusin cucian baju."
+  - answerText: '"Kemarin kami sibuk bu, banyak kerjaan dari kantor. Istri juga lagi
+      ngurusin cucian baju."'
     fin: 0
     rel: 0
     edu: 0

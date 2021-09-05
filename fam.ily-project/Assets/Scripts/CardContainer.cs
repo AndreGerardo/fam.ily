@@ -13,6 +13,7 @@ public class CardContainer : MonoBehaviour
     public LeanTweenType easeType;
 
     public GameObject cardFront, cardBack, cardEpilogue, cardEnd;
+    public AudioSource flipSound;
 
     [Header("Cards")]
     public CardChoice firstCard;
@@ -25,6 +26,8 @@ public class CardContainer : MonoBehaviour
     {
         currentCard = firstCard;
 
+        flipSound = GetComponent<AudioSource>();
+
         questionText.text = currentCard.questionText;
         for(int i = 0; i < answerText.Length; i++)
         {
@@ -36,10 +39,12 @@ public class CardContainer : MonoBehaviour
     {
         if(isFlipped == false)
         {
+            flipSound.Play();
             StartCoroutine(RotateFront());
         }
         else
         {
+            flipSound.Play();
             StartCoroutine(RotateBack());
         }
     }
@@ -59,6 +64,7 @@ public class CardContainer : MonoBehaviour
         GM.education += currentCard.choices[ansIndex].edu;
         GM.ecology += currentCard.choices[ansIndex].eco;
 
+        flipSound.Play();
         StartCoroutine(RotateEpilogue());
 
         currentCard = currentCard.choices[ansIndex].nextChoice;
@@ -68,6 +74,7 @@ public class CardContainer : MonoBehaviour
     {
         if(currentCard.isEndCard == true || GM.financial <= 0f || GM.relationship <= 0f || GM.education <= 0f || GM.ecology <= 0f)
         {
+            flipSound.Play();
             StartCoroutine(RotateEnd());
         }else
         {
@@ -77,6 +84,7 @@ public class CardContainer : MonoBehaviour
                 answerText[i].text = currentCard.choices[i].answerText;
             }
 
+            flipSound.Play();
             StartCoroutine(RotateEpilogueQuestion());
         }
     }
@@ -97,6 +105,7 @@ public class CardContainer : MonoBehaviour
             answerText[i].text = currentCard.choices[i].answerText;
         }
 
+        flipSound.Play();
         StartCoroutine(RotateEndQuestion());
 
     }
